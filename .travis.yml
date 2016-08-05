@@ -1,0 +1,9 @@
+[![Build Status](https://travis-ci.org/amherna/place-my-order.png?branch=master)](https://travis-ci.org/amherna/place-my-order)
+
+# place-my-order
+
+language: node_js
+node_js: node
+before_install:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
